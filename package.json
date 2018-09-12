@@ -1,0 +1,23 @@
+{
+  "name": "SENG365-Auction-Site-API",
+  "description": "An auction website where bids are made and items bought",
+  "keywords": [
+    "auction",
+    "application",
+    "api"
+  ],
+  "author": "Chuan Law <cll62@uclive.ac.nz>",
+  "main": "server.js",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "content-type": "^1.0.4",
+    "email-validator": "^2.0.3",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "mysql": "^2.15.0"
+  }
+}
